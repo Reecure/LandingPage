@@ -5,8 +5,8 @@
 .benefits {
   &__title {
     .h2 {
-      margin: 25% 30% 0 33%;
-      text-align: center;
+      margin: 25% 30% 10.8% 33%;
+      width: 681px;
       @include h2();
       @media (max-width: 1280px) {
         width: 500px;
@@ -43,6 +43,15 @@
       display: block;
       position: relative;
       margin-left: 15%;
+      margin-bottom: 5%;
+    }
+
+    & > div:nth-child(odd) {
+      margin-top: -7%;
+    }
+    & > div:nth-child(even) {
+      margin-top: -10%;
+      margin-left: 40%;
     }
   }
 }

@@ -285,8 +285,8 @@ html {
 }
 
 .benefits__title .h2 {
-  margin: 25% 30% 0 33%;
-  text-align: center;
+  margin: 25% 30% 10.8% 33%;
+  width: 681px;
   font-size: 36px;
   font-weight: bold;
   color: #263238;
@@ -329,4 +329,12 @@ html {
   display: block;
   position: relative;
   margin-left: 15%;
+  margin-bottom: 5%;
+}
+.benefits__cards > div:nth-child(odd) {
+  margin-top: -7%;
+}
+.benefits__cards > div:nth-child(even) {
+  margin-top: -10%;
+  margin-left: 40%;
 }/*# sourceMappingURL=index.css.map */
