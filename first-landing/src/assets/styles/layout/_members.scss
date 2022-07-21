@@ -1,0 +1,40 @@
+@import "../utils/vars";
+@import "../utils/mixins";
+
+.members {
+  margin-top: 11.6%;
+
+  &__title {
+    .h2 {
+      text-align: center;
+      margin-left: 25%;
+      margin-right: 25%;
+      margin-bottom: 6%;
+      @include h2();
+    }
+  }
+  &__cards {
+    display: flex;
+    margin-left: 20.2%;
+    .card {
+      display: flex;
+      width: 287px;
+      flex-direction: column;
+      justify-content: start;
+      margin-right: 12.4%;
+      &__text {
+        font-size: 22px;
+        color: $mainColor;
+        line-height: 1.02;
+        text-align: center;
+      }
+      &__mid {
+        text-align: center;
+        font-size: 36.5px;
+        line-height: 1.97;
+        font-weight: bold;
+        color: $blueColor;
+      }
+    }
+  }
+}

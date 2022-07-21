@@ -356,4 +356,41 @@ html {
   font-weight: 600;
   font-size: 20px;
   color: #fbfcfc;
+}
+
+.members {
+  margin-top: 11.6%;
+}
+.members__title .h2 {
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 6%;
+  font-size: 36px;
+  font-weight: bold;
+  color: #263238;
+}
+.members__cards {
+  display: flex;
+  margin-left: 20.2%;
+}
+.members__cards .card {
+  display: flex;
+  width: 287px;
+  flex-direction: column;
+  justify-content: start;
+  margin-right: 12.4%;
+}
+.members__cards .card__text {
+  font-size: 22px;
+  color: #263238;
+  line-height: 1.02;
+  text-align: center;
+}
+.members__cards .card__mid {
+  text-align: center;
+  font-size: 36.5px;
+  line-height: 1.97;
+  font-weight: bold;
+  color: #1a56a3;
 }/*# sourceMappingURL=index.css.map */
