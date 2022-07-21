@@ -370,16 +370,27 @@ html {
   font-weight: bold;
   color: #263238;
 }
+@media (max-width: 1280px) {
+  .members__title .h2 {
+    width: 600px;
+  }
+}
 .members__cards {
   display: flex;
-  margin-left: 20.2%;
+  justify-content: space-around;
+}
+@media (max-width: 1280px) {
+  .members__cards {
+    flex-direction: column;
+    margin-left: 40%;
+    margin-top: 5%;
+  }
 }
 .members__cards .card {
   display: flex;
   width: 287px;
   flex-direction: column;
   justify-content: start;
-  margin-right: 12.4%;
 }
 .members__cards .card__text {
   font-size: 22px;
@@ -393,6 +404,83 @@ html {
   line-height: 1.97;
   font-weight: bold;
   color: #1a56a3;
+}
+@media (max-width: 1280px) {
+  .members__cards .card {
+    margin-bottom: 10%;
+  }
+}
+
+.news__title {
+  margin-top: 10.8%;
+  margin-bottom: 5.5%;
+}
+.news__title .h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: #263238;
+}
+@media (max-width: 1280px) {
+  .news__title .h2 {
+    width: 500px;
+    margin-left: 25%;
+  }
+}
+.news__cards {
+  display: flex;
+  justify-content: space-around;
+}
+.news__cards .news-card {
+  width: 355px;
+  display: flex;
+  border-radius: 20px;
+  flex-direction: column;
+  box-shadow: 0px 27px 43px 0 rgba(32, 94, 171, 0.1);
+  background-color: #fff;
+  margin-bottom: 5%;
+}
+.news__cards .news-card__photo {
+  height: 225px;
+}
+.news__cards .news-card__photo img {
+  border-radius: 15px 15px 0 0;
+  height: 225px;
+}
+.news__cards .news-card__title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #263238;
+  color: #263238;
+  margin: 15px 35px 15px 32px;
+}
+.news__cards .news-card__description {
+  font-size: 18px;
+  color: #546e7a;
+  width: 275px;
+  line-height: 1.2;
+  margin: 0 35px 15px 32px;
+}
+.news__cards .news-card__link {
+  color: #2870db;
+  margin: 0 35px 43px 32px;
+}
+@media (max-width: 1300px) {
+  .news__cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 768px) {
+  .news__cards {
+    flex-direction: column;
+    margin-left: 25%;
+  }
+}
+@media (max-width: 425px) {
+  .news__cards {
+    margin-left: 100%;
+  }
 }
 
 * {
