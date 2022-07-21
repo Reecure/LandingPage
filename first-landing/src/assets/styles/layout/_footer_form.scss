@@ -1,0 +1,57 @@
+@import "../utils/vars";
+@import "../utils/mixins";
+
+.footer_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0px 42px 35px 0 rgba(31, 110, 227, 0.15);
+  background-color: #3072c0;
+  &__title {
+    text-align: center;
+
+    margin-left: 15%;
+    margin-right: 15%;
+    .h2 {
+      @include h2();
+      margin-top: 85px;
+      margin-bottom: 71px;
+      color: $white;
+    }
+  }
+
+  &__form {
+    & form {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+    #footer-form__form__name {
+      width: 599px;
+      height: 69px;
+      border-radius: 20px;
+      margin-bottom: 38px;
+      border: 0;
+      font-size: 24px;
+      padding: 25px 407px 25px 37px;
+      color: rgba(84, 110, 122, 0.6);
+    }
+    #footer-form__form__email {
+      width: 599px;
+      height: 69px;
+      border: 0;
+      border-radius: 20px;
+      font-size: 24px;
+      padding: 25px 407px 25px 37px;
+      margin-bottom: 71px;
+      color: rgba(84, 110, 122, 0.6);
+    }
+    #footer-form__form__btn {
+      @include btn();
+      background-color: #00aeff;
+      margin-bottom: 100px;
+    }
+  }
+}
