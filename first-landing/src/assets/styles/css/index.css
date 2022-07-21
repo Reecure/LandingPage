@@ -300,7 +300,7 @@ html {
 @media (max-width: 768px) {
   .benefits__title .h2 {
     width: 550px;
-    margin: 25% 10% 0 15%;
+    margin: 25% 10% 10.8% 15%;
   }
 }
 .benefits__cards {
@@ -319,7 +319,7 @@ html {
   font-size: 24px;
   font-weight: bold;
   color: #263238;
-  margin-bottom: 30px;
+  margin-bottom: 15%;
 }
 .benefits__cards .card__description {
   font-size: 18px;
@@ -337,4 +337,23 @@ html {
 .benefits__cards > div:nth-child(even) {
   margin-top: -10%;
   margin-left: 40%;
+}
+@media (max-width: 1280px) {
+  .benefits__cards > div:last-child {
+    margin-left: 23%;
+    margin-top: 20%;
+  }
+}
+.benefits__button button {
+  margin-left: 19%;
+  margin-top: -10%;
+  height: 80px;
+  width: 240px;
+  border: 0;
+  border-radius: 40px;
+  box-shadow: 0px 22px 23.5px 0.5px rgba(17, 83, 165, 0.21);
+  background-color: #2870db;
+  font-weight: 600;
+  font-size: 20px;
+  color: #fbfcfc;
 }/*# sourceMappingURL=index.css.map */
