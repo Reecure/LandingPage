@@ -1,0 +1,121 @@
+html {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  max-width: 1920px;
+  margin: auto;
+}
+
+.ui__title {
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-decoration: underline;
+}
+
+.h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #1c2056;
+}
+
+.h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #263238;
+}
+
+.h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #263238;
+}
+
+.p1 {
+  font-size: 18px;
+  color: #546e7a;
+}
+
+.btn {
+  height: 80px;
+  width: 240px;
+  border: 0;
+  border-radius: 40px;
+  box-shadow: 0px 22px 23.5px 0.5px rgba(17, 83, 165, 0.21);
+  background-color: #2870db;
+  font-weight: 600;
+  font-size: 20px;
+  color: #fbfcfc;
+}
+
+.advocate-card {
+  width: 100%;
+  box-shadow: 0px 27px 43px 0 rgba(32, 94, 171, 0.1);
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 75px 98px 78px 72px;
+}
+.advocate-card__title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #263238;
+  margin-bottom: 30px;
+}
+.advocate-card__description {
+  font-size: 18px;
+  color: #546e7a;
+}
+
+.members-count {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  justify-content: start;
+}
+.members-count__text {
+  font-size: 22px;
+  color: #263238;
+  text-align: center;
+}
+.members-count__mid {
+  text-align: center;
+  font-size: 36.5px;
+  font-weight: bold;
+  color: #1a56a3;
+}
+
+.news-card {
+  width: 355px;
+  display: flex;
+  border-radius: 20px;
+  flex-direction: column;
+  box-shadow: 0px 27px 43px 0 rgba(32, 94, 171, 0.1);
+  background-color: #fff;
+}
+.news-card__photo {
+  height: 225px;
+}
+.news-card__photo img {
+  border-radius: 15px 15px 0 0;
+  height: 225px;
+}
+.news-card__title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #263238;
+  color: #263238;
+  margin: 15px 35px 15px 32px;
+}
+.news-card__description {
+  font-size: 18px;
+  color: #546e7a;
+  width: 275px;
+  line-height: 1.2;
+  margin: 0 35px 15px 32px;
+}
+.news-card__link {
+  color: #2870db;
+  margin: 0 35px 43px 32px;
+}/*# sourceMappingURL=uikit.css.map */

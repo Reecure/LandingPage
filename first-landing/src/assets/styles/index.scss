@@ -1,0 +1,10 @@
+@import "./layout/index.scss";
+@import "utils/vars";
+@import "./utils/reset";
+@import "utils/mixins";
+
+.container {
+  max-width: 1850px;
+  margin: 0 auto;
+  padding: 0;
+}
